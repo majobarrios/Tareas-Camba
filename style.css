@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #f3f4f6;
+	font-family: 'Work Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .contenedor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+  
+  .forma-contenedor {
+	width: 320px;
+	padding: 30px;
+	background: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+  
+  h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 14px;
+  }
+  
+  .input:focus {
+	border-color: #007acc;
+	outline: none;
+	box-shadow: 0 0 5px rgba(0, 122, 204, 0.3);
+  }
+  
+  .boton_contenedor {
+	margin-top: 20px;
+  }
+  
+  .Btn1, .Btn2 {
+	width: 100%;
+	padding: 10px;
+	background-color: #007acc;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+  }
+  
+  .Btn1:hover, .Btn2:hover {
+	background-color: #005fa3;
+  }
+  
+  .Btn2 {
+	background-color: #333;
+	margin-top: 10px;
+  }
+  
+  .Btn2:hover {
+	background-color: #555;
+  }
+  
